@@ -3,19 +3,5 @@
 
     "build": {
         "dockerfile": "Dockerfile"
-    },
-
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-python.python"
-            ],
-            "settings": {
-                "python.testing.pytestEnabled": true,
-                "python.testing.unittestEnabled": false
-            }
-        }
-    },
-
-    "remoteUser": "root"
+    }
 }
