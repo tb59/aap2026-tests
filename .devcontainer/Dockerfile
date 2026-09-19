@@ -7,10 +7,13 @@ RUN apt-get update && \
         tree \
         less \
         nano \
+        man-db \
+        manpages \
     && rm -rf /var/lib/apt/lists/*
 
 RUN python -m pip install --no-cache-dir \
     pytest \
+    pycodestyle \
     numpy \
     matplotlib \
     ruff
